@@ -32,7 +32,7 @@ export default function Gallery() {
 
   return (
     <section className="gallery">
-      <h2 className="gallery-title">PreWedding Memories</h2>
+      <h2 className="gallery-title">Photos</h2>
 
       {!ready && (
         <div className="grid">

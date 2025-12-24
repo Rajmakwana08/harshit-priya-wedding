@@ -420,3 +420,53 @@ html, body {
   font-style: italic;
 }
 
+
+
+
+
+
+/* Language Toggle Button */
+.translate-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 78px; /* sits nicely next to music button */
+  height: 48px;
+  min-width: 58px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: none;
+
+  background: white;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+
+  box-shadow: 0 8px 22px rgba(183,110,121,0.25);
+  cursor: pointer;
+  z-index: 100;
+
+  transition: 
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.translate-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(183,110,121,0.35);
+}
+
+/* Active click */
+.translate-btn:active {
+  transform: scale(0.95);
+}
+
+/* Gujarati text spacing */
+.translate-btn {
+  font-family: "Poppins", system-ui, sans-serif;
+}
